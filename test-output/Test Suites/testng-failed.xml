@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suites]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify Login testcase(failed)">
+    <classes>
+      <class name="testCases.TC_001_Verify_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- testCases.TC_001_Verify_Login -->
+    </classes>
+  </test> <!-- Verify Login testcase(failed) -->
+  <test thread-count="5" name="Verify Add all add to cart testcase(failed)">
+    <classes>
+      <class name="testCases.TC_002_Verify_Add_ALl_Items">
+        <methods>
+          <include name="add2nditeam"/>
+          <include name="add3rdIteam"/>
+          <include name="tearDown"/>
+          <include name="addAllIteams"/>
+          <include name="add6thIteam"/>
+          <include name="add5thIteam"/>
+          <include name="add4thIteam"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC_002_Verify_Add_ALl_Items -->
+    </classes>
+  </test> <!-- Verify Add all add to cart testcase(failed) -->
+  <test thread-count="5" name="Verify Filter testcase(failed)">
+    <classes>
+      <class name="testCases.TC_003_Verify_Filter">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickFilterIcon"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC_003_Verify_Filter -->
+    </classes>
+  </test> <!-- Verify Filter testcase(failed) -->
+  <test thread-count="5" name="Verify Add to cart icon testcase(failed)">
+    <classes>
+      <class name="testCases.TC_004_Verify_Add_to_Cart_Icon">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickAddToIcon"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC_004_Verify_Add_to_Cart_Icon -->
+    </classes>
+  </test> <!-- Verify Add to cart icon testcase(failed) -->
+  <test thread-count="5" name="Verify Remove all Items testcase(failed)">
+    <classes>
+      <class name="testCases.TC_005_Verify_Remove_All_Items">
+        <methods>
+          <include name="tearDown"/>
+          <include name="removeItem6"/>
+          <include name="removeItem4"/>
+          <include name="removeItem5"/>
+          <include name="launchBrowser"/>
+          <include name="removeItem2"/>
+          <include name="removeItem3"/>
+          <include name="removeItem1"/>
+        </methods>
+      </class> <!-- testCases.TC_005_Verify_Remove_All_Items -->
+    </classes>
+  </test> <!-- Verify Remove all Items testcase(failed) -->
+  <test thread-count="5" name="Verify Checkout Information testcase(failed)">
+    <classes>
+      <class name="testCases.TC_006_Verify_Checkout_Information">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkoutInformation"/>
+          <include name="launchBrowser"/>
+          <include name="fillCheckoutInformation"/>
+        </methods>
+      </class> <!-- testCases.TC_006_Verify_Checkout_Information -->
+    </classes>
+  </test> <!-- Verify Checkout Information testcase(failed) -->
+  <test thread-count="5" name="Verify Menubutton testcase(failed)">
+    <classes>
+      <class name="testCases.TC_007_Verify_Menubutton">
+        <methods>
+          <include name="clickAbout"/>
+          <include name="menuButton"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCases.TC_007_Verify_Menubutton -->
+    </classes>
+  </test> <!-- Verify Menubutton testcase(failed) -->
+  <test thread-count="5" name="Verify LogOut testcase(failed)">
+    <classes>
+      <class name="testCases.TC_008_Verify_Logout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="add4thIteam"/>
+          <include name="resetApp"/>
+          <include name="clickLogout"/>
+          <include name="add1stIteams"/>
+          <include name="add2nditeam"/>
+          <include name="add3rdIteam"/>
+          <include name="launchBrowser"/>
+          <include name="add5thIteam"/>
+          <include name="add6thIteam"/>
+        </methods>
+      </class> <!-- testCases.TC_008_Verify_Logout -->
+    </classes>
+  </test> <!-- Verify LogOut testcase(failed) -->
+</suite> <!-- Failed suite [Test Suites] -->

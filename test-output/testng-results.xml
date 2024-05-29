@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="27" passed="27" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T23:34:53 IST" name="Test Suites" finished-at="2024-05-26T23:35:21 IST" duration-ms="28329">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T23:34:53 IST" name="Common Functions testcase" finished-at="2024-05-26T23:34:53 IST" duration-ms="36">
+    </test> <!-- Common Functions testcase -->
+    <test started-at="2024-05-26T23:34:53 IST" name="Verify Login testcase" finished-at="2024-05-26T23:34:55 IST" duration-ms="1583">
+      <class name="testCases.Verify_Login_Testcase">
+        <test-method signature="loginPage()[pri:0, instance:testCases.Verify_Login_Testcase@1283bb96]" started-at="2024-05-26T23:34:53 IST" name="loginPage" finished-at="2024-05-26T23:34:55 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- testCases.Verify_Login_Testcase -->
+    </test> <!-- Verify Login testcase -->
+    <test started-at="2024-05-26T23:34:55 IST" name="Verify Add all add to cart testcase" finished-at="2024-05-26T23:34:57 IST" duration-ms="1550">
+      <class name="testCases.Verify_Add_ALl_Items_Testcase">
+        <test-method signature="addAllIteams()[pri:1, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:55 IST" name="addAllIteams" finished-at="2024-05-26T23:34:55 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAllIteams -->
+        <test-method signature="add2nditeam()[pri:2, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:55 IST" name="add2nditeam" finished-at="2024-05-26T23:34:56 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add2nditeam -->
+        <test-method signature="add3rdIteam()[pri:3, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:56 IST" name="add3rdIteam" finished-at="2024-05-26T23:34:56 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add3rdIteam -->
+        <test-method signature="add4thIteam()[pri:4, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:56 IST" name="add4thIteam" finished-at="2024-05-26T23:34:56 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add4thIteam -->
+        <test-method signature="add5thIteam()[pri:5, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:56 IST" name="add5thIteam" finished-at="2024-05-26T23:34:56 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add5thIteam -->
+        <test-method signature="add6thIteam()[pri:6, instance:testCases.Verify_Add_ALl_Items_Testcase@689604d9]" started-at="2024-05-26T23:34:56 IST" name="add6thIteam" finished-at="2024-05-26T23:34:57 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add6thIteam -->
+      </class> <!-- testCases.Verify_Add_ALl_Items_Testcase -->
+    </test> <!-- Verify Add all add to cart testcase -->
+    <test started-at="2024-05-26T23:34:57 IST" name="Verify Filter testcase" finished-at="2024-05-26T23:34:57 IST" duration-ms="212">
+      <class name="testCases.Verify_Filter_Testcase">
+        <test-method signature="clickFilterIcon()[pri:0, instance:testCases.Verify_Filter_Testcase@4135c3b]" started-at="2024-05-26T23:34:57 IST" name="clickFilterIcon" finished-at="2024-05-26T23:34:57 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFilterIcon -->
+      </class> <!-- testCases.Verify_Filter_Testcase -->
+    </test> <!-- Verify Filter testcase -->
+    <test started-at="2024-05-26T23:34:57 IST" name="Verify Add to cart icon testcase" finished-at="2024-05-26T23:34:57 IST" duration-ms="244">
+      <class name="testCases.Verify_Add_to_Cart_Icon_Testcase">
+        <test-method signature="clickAddToIcon()[pri:0, instance:testCases.Verify_Add_to_Cart_Icon_Testcase@459e9125]" started-at="2024-05-26T23:34:57 IST" name="clickAddToIcon" finished-at="2024-05-26T23:34:57 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddToIcon -->
+      </class> <!-- testCases.Verify_Add_to_Cart_Icon_Testcase -->
+    </test> <!-- Verify Add to cart icon testcase -->
+    <test started-at="2024-05-26T23:34:57 IST" name="Verify Remove all Items testcase" finished-at="2024-05-26T23:34:58 IST" duration-ms="874">
+      <class name="testCases.Verify_Remove_All_Items_Testcase">
+        <test-method signature="removeItem1()[pri:0, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:57 IST" name="removeItem1" finished-at="2024-05-26T23:34:57 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem1 -->
+        <test-method signature="removeItem2()[pri:1, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:57 IST" name="removeItem2" finished-at="2024-05-26T23:34:57 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem2 -->
+        <test-method signature="removeItem3()[pri:2, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:57 IST" name="removeItem3" finished-at="2024-05-26T23:34:58 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem3 -->
+        <test-method signature="removeItem4()[pri:3, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:58 IST" name="removeItem4" finished-at="2024-05-26T23:34:58 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem4 -->
+        <test-method signature="removeItem5()[pri:4, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:58 IST" name="removeItem5" finished-at="2024-05-26T23:34:58 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem5 -->
+        <test-method signature="removeItem6()[pri:5, instance:testCases.Verify_Remove_All_Items_Testcase@47eaca72]" started-at="2024-05-26T23:34:58 IST" name="removeItem6" finished-at="2024-05-26T23:34:58 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem6 -->
+      </class> <!-- testCases.Verify_Remove_All_Items_Testcase -->
+    </test> <!-- Verify Remove all Items testcase -->
+    <test started-at="2024-05-26T23:34:58 IST" name="Verify Checkout Information testcase" finished-at="2024-05-26T23:35:00 IST" duration-ms="1548">
+      <class name="testCases.Verify_Checkout_Information_Testcase">
+        <test-method signature="checkoutInformation()[pri:0, instance:testCases.Verify_Checkout_Information_Testcase@14cd1699]" started-at="2024-05-26T23:34:58 IST" name="checkoutInformation" finished-at="2024-05-26T23:34:58 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInformation -->
+        <test-method signature="fillCheckoutInformation()[pri:1, instance:testCases.Verify_Checkout_Information_Testcase@14cd1699]" started-at="2024-05-26T23:34:58 IST" name="fillCheckoutInformation" finished-at="2024-05-26T23:35:00 IST" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillCheckoutInformation -->
+      </class> <!-- testCases.Verify_Checkout_Information_Testcase -->
+    </test> <!-- Verify Checkout Information testcase -->
+    <test started-at="2024-05-26T23:35:00 IST" name="Verify Menubutton testcase" finished-at="2024-05-26T23:35:20 IST" duration-ms="20411">
+      <class name="testCases.Verify_Menubutton_Testcase">
+        <test-method signature="menuButton()[pri:1, instance:testCases.Verify_Menubutton_Testcase@65fb9ffc]" started-at="2024-05-26T23:35:00 IST" name="menuButton" finished-at="2024-05-26T23:35:00 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuButton -->
+        <test-method signature="clickAbout()[pri:2, instance:testCases.Verify_Menubutton_Testcase@65fb9ffc]" started-at="2024-05-26T23:35:00 IST" name="clickAbout" finished-at="2024-05-26T23:35:20 IST" duration-ms="20177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAbout -->
+      </class> <!-- testCases.Verify_Menubutton_Testcase -->
+    </test> <!-- Verify Menubutton testcase -->
+    <test started-at="2024-05-26T23:35:20 IST" name="Verify LogOut testcase" finished-at="2024-05-26T23:35:21 IST" duration-ms="1455">
+      <class name="testCases.Verify_Logout_Testcase">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:34:42 IST" name="launchBrowser" finished-at="2024-05-26T23:34:53 IST" duration-ms="10641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="add1stIteams()[pri:1, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:20 IST" name="add1stIteams" finished-at="2024-05-26T23:35:20 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add1stIteams -->
+        <test-method signature="add2nditeam()[pri:2, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:20 IST" name="add2nditeam" finished-at="2024-05-26T23:35:20 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add2nditeam -->
+        <test-method signature="add3rdIteam()[pri:3, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:20 IST" name="add3rdIteam" finished-at="2024-05-26T23:35:20 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add3rdIteam -->
+        <test-method signature="add4thIteam()[pri:4, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:20 IST" name="add4thIteam" finished-at="2024-05-26T23:35:21 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add4thIteam -->
+        <test-method signature="add5thIteam()[pri:5, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:21 IST" name="add5thIteam" finished-at="2024-05-26T23:35:21 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add5thIteam -->
+        <test-method signature="add6thIteam()[pri:6, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:21 IST" name="add6thIteam" finished-at="2024-05-26T23:35:21 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add6thIteam -->
+        <test-method signature="resetApp()[pri:7, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:21 IST" name="resetApp" finished-at="2024-05-26T23:35:21 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetApp -->
+        <test-method signature="clickLogout()[pri:8, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:21 IST" name="clickLogout" finished-at="2024-05-26T23:35:21 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Verify_Logout_Testcase@639c2c1d]" started-at="2024-05-26T23:35:21 IST" name="tearDown" finished-at="2024-05-26T23:35:22 IST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Verify_Logout_Testcase -->
+    </test> <!-- Verify LogOut testcase -->
+  </suite> <!-- Test Suites -->
+</testng-results>

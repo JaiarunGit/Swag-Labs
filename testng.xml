@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suites">
+
+	<test name="Common Functions testcase">
+		<classes>
+			<class name="commonFunction.Common_Functions" />
+		</classes>
+	</test>
+
+	<test name="Verify Login testcase">
+		<classes>
+			<class name="testCases.Verify_Login_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Add all add to cart testcase">
+		<classes>
+			<class name="testCases.Verify_Add_ALl_Items_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Filter testcase">
+		<classes>
+			<class name="testCases.Verify_Filter_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Add to cart icon testcase">
+		<classes>
+			<class name="testCases.Verify_Add_to_Cart_Icon_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Remove all Items testcase">
+		<classes>
+			<class name="testCases.Verify_Remove_All_Items_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Checkout Information testcase">
+		<classes>
+			<class name="testCases.Verify_Checkout_Information_Testcase" />
+		</classes>
+	</test>
+
+	<test name="Verify Menubutton testcase">
+		<classes>
+			<class name="testCases.Verify_Menubutton_Testcase" />
+		</classes>
+	</test>
+	
+	<test name="Verify LogOut testcase">
+		<classes>
+			<class name="testCases.Verify_Logout_Testcase" />
+		</classes>
+	</test>
+</suite>
+    

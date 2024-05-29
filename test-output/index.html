@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Suites" class="navigator-link">
+              <span class="suite-name border-passed">Test Suites</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Suites" class="navigator-link ">
+                    <span>C:\Eclipse workspace\SwagLabs\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Suites" class="navigator-link ">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Suites" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Suites" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Suites" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Suites" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Suites" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suites" class="hide-methods passed suite-Test_Suites"> (hide)</a> <!-- hide-methods passed suite-Test_Suites -->
+                      <a href="#" panel-name="suite-Test_Suites" class="show-methods passed suite-Test_Suites"> (show)</a> <!-- show-methods passed suite-Test_Suites -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suites">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add1stIteams">add1stIteams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="add2nditeam">add2nditeam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add2nditeam">add2nditeam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="add3rdIteam">add3rdIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add3rdIteam">add3rdIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="add4thIteam">add4thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add4thIteam">add4thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="add5thIteam">add5thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add5thIteam">add5thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="add6thIteam">add6thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="add6thIteam">add6thIteam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_ALl_Items_Testcase" class="method navigator-link" hash-for-method="addAllIteams">addAllIteams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Checkout_Information_Testcase" class="method navigator-link" hash-for-method="checkoutInformation">checkoutInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Menubutton_Testcase" class="method navigator-link" hash-for-method="clickAbout">clickAbout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Add_to_Cart_Icon_Testcase" class="method navigator-link" hash-for-method="clickAddToIcon">clickAddToIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Filter_Testcase" class="method navigator-link" hash-for-method="clickFilterIcon">clickFilterIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="clickLogout">clickLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Checkout_Information_Testcase" class="method navigator-link" hash-for-method="fillCheckoutInformation">fillCheckoutInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Login_Testcase" class="method navigator-link" hash-for-method="loginPage">loginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Menubutton_Testcase" class="method navigator-link" hash-for-method="menuButton">menuButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem1">removeItem1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem2">removeItem2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem3">removeItem3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem4">removeItem4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem5">removeItem5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Remove_All_Items_Testcase" class="method navigator-link" hash-for-method="removeItem6">removeItem6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suites" title="testCases.Verify_Logout_Testcase" class="method navigator-link" hash-for-method="resetApp">resetApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suites -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suites" class="panel Test_Suites">
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Checkout_Information_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutInformation">
+                  </a> <!-- checkoutInformation -->
+                  <span class="method-name">checkoutInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillCheckoutInformation">
+                  </a> <!-- fillCheckoutInformation -->
+                  <span class="method-name">fillCheckoutInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Add_to_Cart_Icon_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddToIcon">
+                  </a> <!-- clickAddToIcon -->
+                  <span class="method-name">clickAddToIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Login_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage">
+                  </a> <!-- loginPage -->
+                  <span class="method-name">loginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Remove_All_Items_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem1">
+                  </a> <!-- removeItem1 -->
+                  <span class="method-name">removeItem1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem2">
+                  </a> <!-- removeItem2 -->
+                  <span class="method-name">removeItem2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem3">
+                  </a> <!-- removeItem3 -->
+                  <span class="method-name">removeItem3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem4">
+                  </a> <!-- removeItem4 -->
+                  <span class="method-name">removeItem4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem5">
+                  </a> <!-- removeItem5 -->
+                  <span class="method-name">removeItem5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem6">
+                  </a> <!-- removeItem6 -->
+                  <span class="method-name">removeItem6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Logout_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add1stIteams">
+                  </a> <!-- add1stIteams -->
+                  <span class="method-name">add1stIteams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add2nditeam">
+                  </a> <!-- add2nditeam -->
+                  <span class="method-name">add2nditeam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add3rdIteam">
+                  </a> <!-- add3rdIteam -->
+                  <span class="method-name">add3rdIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add4thIteam">
+                  </a> <!-- add4thIteam -->
+                  <span class="method-name">add4thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add5thIteam">
+                  </a> <!-- add5thIteam -->
+                  <span class="method-name">add5thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add6thIteam">
+                  </a> <!-- add6thIteam -->
+                  <span class="method-name">add6thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickLogout">
+                  </a> <!-- clickLogout -->
+                  <span class="method-name">clickLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resetApp">
+                  </a> <!-- resetApp -->
+                  <span class="method-name">resetApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Add_ALl_Items_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add2nditeam">
+                  </a> <!-- add2nditeam -->
+                  <span class="method-name">add2nditeam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add3rdIteam">
+                  </a> <!-- add3rdIteam -->
+                  <span class="method-name">add3rdIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add4thIteam">
+                  </a> <!-- add4thIteam -->
+                  <span class="method-name">add4thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add5thIteam">
+                  </a> <!-- add5thIteam -->
+                  <span class="method-name">add5thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="add6thIteam">
+                  </a> <!-- add6thIteam -->
+                  <span class="method-name">add6thIteam</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAllIteams">
+                  </a> <!-- addAllIteams -->
+                  <span class="method-name">addAllIteams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Menubutton_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAbout">
+                  </a> <!-- clickAbout -->
+                  <span class="method-name">clickAbout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuButton">
+                  </a> <!-- menuButton -->
+                  <span class="method-name">menuButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+          <div class="suite-Test_Suites-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Verify_Filter_Testcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickFilterIcon">
+                  </a> <!-- clickFilterIcon -->
+                  <span class="method-name">clickFilterIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suites-class-passed -->
+        </div> <!-- panel Test_Suites -->
+        <div panel-name="test-xml-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Eclipse workspace\SwagLabs\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Suites&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Common Functions testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;commonFunction.Common_Functions&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Common Functions testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Login testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Login_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Login testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Add all add to cart testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Add_ALl_Items_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Add all add to cart testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Filter testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Filter_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Filter testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Add to cart icon testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Add_to_Cart_Icon_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Add to cart icon testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Remove all Items testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Remove_All_Items_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Remove all Items testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Checkout Information testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Checkout_Information_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Checkout Information testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Menubutton testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Menubutton_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Menubutton testcase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify LogOut testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.Verify_Logout_Testcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify LogOut testcase --&gt;
+&lt;/suite&gt; &lt;!-- Test Suites --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Common Functions testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Login testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Add all add to cart testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Filter testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Add to cart icon testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Remove all Items testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Checkout Information testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Menubutton testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify LogOut testcase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suites');
+function tableData_Test_Suites() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickAbout')
+data.setCell(0, 2, 'testCases.Verify_Menubutton_Testcase')
+data.setCell(0, 3, 20177);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginPage')
+data.setCell(1, 2, 'testCases.Verify_Login_Testcase')
+data.setCell(1, 3, 1496);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillCheckoutInformation')
+data.setCell(2, 2, 'testCases.Verify_Checkout_Information_Testcase')
+data.setCell(2, 3, 1376);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addAllIteams')
+data.setCell(3, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(3, 3, 388);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'add2nditeam')
+data.setCell(4, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(4, 3, 362);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'resetApp')
+data.setCell(5, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(5, 3, 301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'add3rdIteam')
+data.setCell(6, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(6, 3, 242);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickAddToIcon')
+data.setCell(7, 2, 'testCases.Verify_Add_to_Cart_Icon_Testcase')
+data.setCell(7, 3, 237);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickFilterIcon')
+data.setCell(8, 2, 'testCases.Verify_Filter_Testcase')
+data.setCell(8, 3, 186);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickLogout')
+data.setCell(9, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(9, 3, 184);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'add4thIteam')
+data.setCell(10, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(10, 3, 180);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'add2nditeam')
+data.setCell(11, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(11, 3, 178);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'menuButton')
+data.setCell(12, 2, 'testCases.Verify_Menubutton_Testcase')
+data.setCell(12, 3, 177);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'add4thIteam')
+data.setCell(13, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(13, 3, 157);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkoutInformation')
+data.setCell(14, 2, 'testCases.Verify_Checkout_Information_Testcase')
+data.setCell(14, 3, 156);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'add1stIteams')
+data.setCell(15, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(15, 3, 152);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'removeItem3')
+data.setCell(16, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(16, 3, 146);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'removeItem1')
+data.setCell(17, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(17, 3, 146);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'add5thIteam')
+data.setCell(18, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(18, 3, 140);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'removeItem5')
+data.setCell(19, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(19, 3, 134);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'add6thIteam')
+data.setCell(20, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(20, 3, 130);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'removeItem2')
+data.setCell(21, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(21, 3, 125);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'add6thIteam')
+data.setCell(22, 2, 'testCases.Verify_Add_ALl_Items_Testcase')
+data.setCell(22, 3, 123);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'add5thIteam')
+data.setCell(23, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(23, 3, 123);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'add3rdIteam')
+data.setCell(24, 2, 'testCases.Verify_Logout_Testcase')
+data.setCell(24, 3, 117);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'removeItem4')
+data.setCell(25, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(25, 3, 116);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'removeItem6')
+data.setCell(26, 2, 'testCases.Verify_Remove_All_Items_Testcase')
+data.setCell(26, 3, 99);
+window.suiteTableData['Test_Suites']= { tableData: data, tableDiv: 'times-div-Test_Suites'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Test_Suites">
+              </div> <!-- times-div-Test_Suites -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suites</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suites" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Logout_Testcase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Login_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginPage</span>
+                <span class="method-start">10963 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Add_ALl_Items_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addAllIteams</span>
+                <span class="method-start">12544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add2nditeam</span>
+                <span class="method-start">12954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add3rdIteam</span>
+                <span class="method-start">13348 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add4thIteam</span>
+                <span class="method-start">13597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add5thIteam</span>
+                <span class="method-start">13797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add6thIteam</span>
+                <span class="method-start">13949 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Filter_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickFilterIcon</span>
+                <span class="method-start">14117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Add_to_Cart_Icon_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickAddToIcon</span>
+                <span class="method-start">14335 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Remove_All_Items_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeItem1</span>
+                <span class="method-start">14621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem2</span>
+                <span class="method-start">14773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem3</span>
+                <span class="method-start">14929 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem4</span>
+                <span class="method-start">15106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem5</span>
+                <span class="method-start">15235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem6</span>
+                <span class="method-start">15383 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Checkout_Information_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutInformation</span>
+                <span class="method-start">15528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillCheckoutInformation</span>
+                <span class="method-start">15692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Menubutton_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">menuButton</span>
+                <span class="method-start">17100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAbout</span>
+                <span class="method-start">17318 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Verify_Logout_Testcase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add1stIteams</span>
+                <span class="method-start">37523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add2nditeam</span>
+                <span class="method-start">37684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add3rdIteam</span>
+                <span class="method-start">37868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add4thIteam</span>
+                <span class="method-start">37991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add5thIteam</span>
+                <span class="method-start">38160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">add6thIteam</span>
+                <span class="method-start">38288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">resetApp</span>
+                <span class="method-start">38433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickLogout</span>
+                <span class="method-start">38737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39012 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
