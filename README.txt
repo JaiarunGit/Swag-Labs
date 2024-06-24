@@ -2,7 +2,7 @@ Project Name: Swag Labs Test Automation Project
 
 Overview
 =========
-This project focuses on the automated testing of the Swag Labs website using a robust and efficient testing framework. The main technologies and tools utilized in this project include Java 1.8, Selenium WebDriver, TestNG, Maven, and the Page Object Model (POM). The primary goal was to enhance test efficiency, reliability, and coverage while significantly reducing execution time.
+This project focuses on the automated testing of the Swag Labs website using a robust and efficient testing framework. This project's main technologies and tools include Java 1.8, Selenium WebDriver, TestNG, Maven, and the Page Object Model (POM). The primary goal was to enhance test efficiency, reliability, and coverage while significantly reducing execution time.
 
 Key Achievements
 ======================
@@ -50,5 +50,5 @@ Detailed Contributions
 
 Impact
 ========
-This project significantly streamlined the testing process for the Swag Labs website, reducing manual effort and enhancing test reliability and coverage. The implementation of an automated testing framework not only improved efficiency but also contributed to the overall quality and stability of the software.
+This project significantly streamlined the testing process for the Swag Labs website, reducing manual effort and enhancing test reliability and coverage. Implementing an automated testing framework not only improved efficiency but also contributed to the overall quality and stability of the software.
 
